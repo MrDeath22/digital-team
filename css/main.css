@@ -3,14 +3,15 @@ body {
    overflow-x: hidden;
 }
 
-#team{
+#team {
    height: 619px;
 }
-.team__body{
+
+.team__body {
    padding-top: 138px;
 }
 
-.team__title{
+.team__title {
    margin-bottom: 60px;
 }
 
@@ -44,6 +45,7 @@ body {
 .contacts__address {
    right: 250px;
 }
+
 /* /CONTACTS ====================== */
 
 
@@ -98,6 +100,7 @@ body {
 .header__btn:hover a {
    color: #fff;
 }
+
 /* /HEADER ====================== */
 
 /* HERO ====================== */
@@ -159,7 +162,7 @@ body {
 }
 
 .hero__btn:hover {
-   background: linear-gradient(92.48deg, #FB9E3C 2.08%, #FA8305  117.25%);
+   background: linear-gradient(92.48deg, #FB9E3C 2.08%, #FA8305 117.25%);
 
 }
 
@@ -175,6 +178,7 @@ body {
    position: absolute;
    right: -160px;
 }
+
 /* /HERO ====================== */
 
 .cards {
@@ -191,12 +195,13 @@ body {
 
    margin-bottom: 53px;
 }
-.team__block{
+
+.team__block {
    display: flex;
    justify-content: space-between;
 }
 
-.team__item{
+.team__item {
    text-align: center;
    background: #F5F5F5;
    border-radius: 20px;
@@ -205,12 +210,12 @@ body {
    transition: all 0.5s ease;
 }
 
-.team__item:hover{
-   background:#ffffff;
+.team__item:hover {
+   background: #ffffff;
    box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
 }
 
-.team__list::before{
+.team__list::before {
    content: '';
    display: block;
    background-image: url(../img/Bill-1.png);
@@ -221,7 +226,8 @@ body {
    margin-left: 100px;
    margin-top: 40px;
 }
-.team__list__two::before{
+
+.team__list__two::before {
    content: '';
    display: block;
    background-image: url(../img/Beverly-1.png);
@@ -231,7 +237,8 @@ body {
    margin-left: 90px;
    margin-top: 40px;
 }
-.team__list__tree::before{
+
+.team__list__tree::before {
    content: '';
    display: block;
    background-image: url(../img/Claudia-1.png);
@@ -241,7 +248,8 @@ body {
    margin-left: 90px;
    margin-top: 40px;
 }
-.team__list__four::before{
+
+.team__list__four::before {
    content: '';
    display: block;
    background-image: url(../img/Avatar-1.png);
@@ -251,49 +259,59 @@ body {
    margin-left: 90px;
    margin-top: 40px;
 }
-.team__list__title{
+
+.team__list__title {
    font-style: normal;
    font-weight: 600;
    font-size: 19px;
    line-height: 202.5%;
    color: #000000;
 }
-.team__list__text{
+
+.team__list__text {
    font-style: normal;
    font-weight: 300;
    font-size: 16px;
    line-height: 202.5%;
    color: #8B8B8B;
 }
-#partners{
+
+#partners {
    background: #F5F5F5;
    height: 384px;
 }
-.partners__body{
+
+.partners__body {
    padding-top: 70px;
 }
-.partners__title{
+
+.partners__title {
    margin-bottom: 60px;
 }
-.partners__item{
+
+.partners__item {
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
-#action{
+
+#action {
    height: 700px;
 }
-.action__body{
+
+.action__body {
    margin-top: 138px;
 }
-.action__title{
+
+.action__title {
    font-style: normal;
    font-weight: 600;
    font-size: 30px;
    line-height: 187.5%;
    color: #222222;
 }
-.action__text{
+
+.action__text {
    font-style: normal;
    font-weight: normal;
    font-size: 16px;
@@ -302,7 +320,8 @@ body {
    width: 525px;
    margin-bottom: 74px;
 }
-.action__item{
+
+.action__item {
    background: #1B1B1B;
    border-radius: 15px;
    width: 1170px;
@@ -311,14 +330,16 @@ body {
    justify-content: space-around;
    align-items: center;
 }
-.action__item__title{
+
+.action__item__title {
    font-style: normal;
    font-weight: 500;
    font-size: 30px;
    line-height: 45px;
    color: #FFFFFF;
 }
-.action__item__text{
+
+.action__item__text {
    font-style: normal;
    font-weight: normal;
    font-size: 17px;
@@ -327,13 +348,14 @@ body {
    width: 517px;
 }
 
-.input{
+.input {
    background: #ffffff;
    width: 490px;
    height: 50px;
    border-radius: 10px;
 }
-.action__input{
+
+.action__input {
    width: 386px;
    height: 48px;
    background: #FFFFFF;
@@ -342,7 +364,8 @@ body {
    padding-left: 20px;
    padding-right: 20px;
 }
-.action__input__buttom{
+
+.action__input__buttom {
    font-style: normal;
    font-weight: normal;
    font-size: 13px;
@@ -536,6 +559,7 @@ body {
    line-height: 202.5%;
    color: #000000;
 }
+
 /* -------FOOTER--------- */
 
 #footer {
@@ -591,7 +615,7 @@ body {
    margin-right: 75px;
 }
 
-.footer__items > * {
+.footer__items>* {
    display: block;
 }
 
@@ -638,6 +662,105 @@ body {
 
 /* ============= PAGE 2  DILSHOD ============= */
 
+.mini-txt {
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 208.5%;
+   color: #848484;
+}
+
+.mini-span {
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 208.5%;
+   color: #EB9740;
+   padding-top: 100px;
+   margin-bottom: 18px;
+}
+
+.servisec__title {
+   margin-bottom: 20px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 33px;
+   line-height: 180.5%;
+   text-align: center;
+   color: #222222;
+   margin-bottom: 15px;
+}
+
+.services__txt {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 187.5%;
+   text-align: center;
+   color: #898989;
+}
+
+.services__clients {
+   padding-top: 55px;
+}
+
+.clients__txt {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 25px;
+   line-height: 30px;
+   color: #0B132A;
+   padding-bottom: 10px;
+}
+
+.clients__span {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 30px;
+   color: #4F5665;
+}
+
+.item-list--before1::before {
+   content: ' ';
+   width: 60px;
+   height: 60px;
+   background-image: url('../img/user.png');
+   display: block;
+   position: absolute;
+   top: 0;
+   left: -70px;
+}
+
+.item-list--before2::before {
+   content: ' ';
+   width: 60px;
+   height: 60px;
+   background-image: url('../img/location.png');
+   display: block;
+   position: absolute;
+   top: 0;
+   left: -70px;
+}
+
+.item-list--before3::before {
+   content: ' ';
+   width: 60px;
+   height: 60px;
+   background-image: url('../img/Serverss.png');
+   display: block;
+   position: absolute;
+   top: 0;
+   left: -70px;
+}
+
+.after::after {
+   position: absolute;
+   width: 2px;
+   height: 100px;
+   content: "";
+   background-color: #C2C2C2;
+   top: -30px;
+   right: -90px;
+}
 
 
 /* ============= PAGE 2  SHOXRUX ============= */
