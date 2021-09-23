@@ -649,3 +649,44 @@ body {
 
 
 /* ============= PAGE 4  ABDUSAMAD ============= */
+
+.globus__div {
+   padding: 50px 0;
+}
+
+.globus__titles {
+   padding: 20px 0;
+}
+
+.globus__mini-title {
+   font-size: 16px;
+   margin-bottom: 15px;
+   color: #848484;
+}
+
+.mini-title__span {
+   color: #E47500;
+}
+
+.globus__title {
+   font-weight: 600;
+   font-size: 33px;
+   line-height: 180.5%;
+   margin-bottom: 15px;
+}
+
+.globus__desc {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 187.5%;
+   margin-bottom: 20px;
+   color: #898989;
+}
+
+.globus__imgs {
+   padding: 50px 0;
+}
+
+.globus__img {
+   width: 100%;
+}

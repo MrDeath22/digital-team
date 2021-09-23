@@ -8,10 +8,10 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-   <link rel="stylesheet" href="css/normalize.css">
-   <link rel="stylesheet" href="css/column.css">
-   <link rel="stylesheet" href="css/global.css">
-   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="../css/normalize.css">
+   <link rel="stylesheet" href="../css/column.css">
+   <link rel="stylesheet" href="../css/global.css">
+   <link rel="stylesheet" href="../css/main.css">
    <title>Digital</title>
 </head>
 <body>
@@ -32,9 +32,9 @@
          <nav class="header__nav">
             <ul class="header__nav-list row align-center">
                <li class="header__nav-list-item"><a href="#"><i class='bx bxs-circle' ></i>Home</a></li>
-               <li class="header__nav-list-item header__nav-list-item--active"><a href="#"><i class='bx bxs-circle' ></i>About us</a></li>
-               <li class="header__nav-list-item"><a href="#"><i class='bx bxs-circle' ></i>Services</a></li>
-               <li class="header__nav-list-item"><a href="#"><i class='bx bxs-circle' ></i>News</a></li>
+               <li class="header__nav-list-item header__nav-list-item--active"><a href="html/page2.html"><i class='bx bxs-circle' ></i>About us</a></li>
+               <li class="header__nav-list-item"><a href="html/page3.html"><i class='bx bxs-circle' ></i>Services</a></li>
+               <li class="header__nav-list-item"><a href="html/page4.html"><i class='bx bxs-circle' ></i>News</a></li>
                <li class="header__nav-list-item header__btn"><a href="#">Contact us</a></li>
             </ul>
          </nav>
@@ -46,11 +46,33 @@
 <main>
 
    <section id="globus">
-      <div class="globus__div">
-         <div class="globus__titles">
-            <span class="globus__mini-title">Home > <span class="mini-title__span">Contact us</span></span>
-            <h2 class="globus__title"></h2>
-            <p class="globus__desc"></p>
+      <div class="container">
+         <div class="globus__div">
+            <div class="globus__titles center">
+               <span class="globus__mini-title">Home > <span class="mini-title__span"> Contact us</span></span>
+               <h2 class="globus__title">Lorem Ipsum is simply dummy text of the printing and.</h2>
+               <p class="globus__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="globus__imgs center">
+               <img class="globus__img" src="../img/globus.png" alt="globus">
+            </div>
+            <ul class="globus__list">
+               <li class="globus__item globus__item--after">
+                  <span class="item__span"></span>
+                  <a class="footer__items-link" href="#">
+                     <i class='bx item-link__bx bxl-facebook'></i>
+                  </a>
+                  <a class="footer__items-link" href="#">
+                     <i class='bx item-link__bx bxl-instagram'></i>
+                  </a>
+                  <a class="footer__items-link" href="#">
+                     <i class='bx item-link__bx bxl-twitter'></i>
+                  </a>
+                  <a class="footer__items-link" href="#">
+                     <i class='bx item-link__bx bxl-linkedin'></i>
+                  </a>
+               </li>
+            </ul>
          </div>
       </div>
    </section>
