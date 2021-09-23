@@ -647,12 +647,24 @@ body {
 .blog{
    display: flex;
    justify-content: space-between;
+   margin-top: 78px;
+}
+
+.blog__body{
    position: relative;
+
 }
 .bx-play-circle{
    position: absolute;
-   left: 50%;
-   top: 50%;
+   font-size: 50px;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   width: 50px;
+   height: 50px;
+
 }
 .blog__title{
    font-style: normal;
@@ -669,10 +681,11 @@ body {
    line-height: 187.5%;
    color: #525252;
    width: 380px;
+   margin-bottom: 28px;
    
 }
 
-.blog__list__text{
+.blog__list-text{
    font-style: normal;
    font-weight: normal;
    font-size: 14px;
@@ -680,9 +693,9 @@ body {
    color: #525252;
    list-style: none;
    display: flex;
-   align-items: center;
+   margin-bottom: 19px;
 }
-.blog__list__text::before{
+.blog__list-text::before{
    content: '';
    display: block;
    background-image: url(../img/bx_bxs-check-circle.svg);
