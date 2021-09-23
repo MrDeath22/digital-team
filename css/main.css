@@ -160,7 +160,7 @@ body {
 
 .hero__btn:hover {
    background: linear-gradient(92.48deg, #FB9E3C 2.08%, #FA8305  117.25%);
-
+   
 }
 
 .hero__btn:hover i {
@@ -188,7 +188,7 @@ body {
    font-size: 25px;
    line-height: 180.5%;
    color: #222222;
-
+   
    margin-bottom: 53px;
 }
 .team__block{
@@ -221,7 +221,7 @@ body {
    margin-left: 100px;
    margin-top: 40px;
 }
-.team__list__two::before{
+.team__list-two::before{
    content: '';
    display: block;
    background-image: url(../img/Beverly-1.png);
@@ -231,7 +231,7 @@ body {
    margin-left: 90px;
    margin-top: 40px;
 }
-.team__list__tree::before{
+.team__list-tree::before{
    content: '';
    display: block;
    background-image: url(../img/Claudia-1.png);
@@ -241,7 +241,7 @@ body {
    margin-left: 90px;
    margin-top: 40px;
 }
-.team__list__four::before{
+.team__list-four::before{
    content: '';
    display: block;
    background-image: url(../img/Avatar-1.png);
@@ -251,14 +251,14 @@ body {
    margin-left: 90px;
    margin-top: 40px;
 }
-.team__list__title{
+.team__list-title{
    font-style: normal;
    font-weight: 600;
    font-size: 19px;
    line-height: 202.5%;
    color: #000000;
 }
-.team__list__text{
+.team__list-text{
    font-style: normal;
    font-weight: 300;
    font-size: 16px;
@@ -404,7 +404,7 @@ body {
    border-radius: 20px;
    padding: 50px 30px;
    transition: background 0.4s ease, box-shadow 0.4s ease;
-
+   
 }
 
 
@@ -632,7 +632,7 @@ body {
 
 .footer__div-two {
    padding: 30px 0;
-
+   
 }
 
 
@@ -642,6 +642,54 @@ body {
 
 /* ============= PAGE 2  SHOXRUX ============= */
 
+
+
+.blog{
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+.bx-play-circle{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+}
+.blog__title{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 180.5%;
+   color: #222222;
+   width: 350px;
+}
+.blog__text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+   width: 380px;
+   
+}
+
+.blog__list__text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+   list-style: none;
+   display: flex;
+   align-items: center;
+}
+.blog__list__text::before{
+   content: '';
+   display: block;
+   background-image: url(../img/bx_bxs-check-circle.svg);
+   background-repeat: no-repeat;
+   width: 30px;
+   height: 30px;
+}
 
 
 /* ============= PAGE 3  SIROTILLO ============= */
