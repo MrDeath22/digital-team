@@ -714,6 +714,11 @@ body {
 #services {
    padding-bottom: 80px;
 }
+
+.clients__item {
+   box-shadow: 5px 14px 30px -10px rgb(34 60 80 / 20%);
+}
+
 .clients__span {
    font-style: normal;
    font-weight: normal;
