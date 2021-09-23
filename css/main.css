@@ -768,6 +768,65 @@ body {
 
 /* ============= PAGE 2  SHOXRUX ============= */
 
+.blog{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 78px;
+}
+
+.blog__body{
+   position: relative;
+
+}
+.bx-play-circle{
+   position: absolute;
+   font-size: 50px;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   width: 50px;
+   height: 50px;
+
+}
+.blog__title{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 180.5%;
+   color: #222222;
+   width: 350px;
+}
+.blog__text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+   width: 380px;
+   margin-bottom: 28px;
+
+}
+
+.blog__list-text{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+   list-style: none;
+   display: flex;
+   margin-bottom: 19px;
+}
+.blog__list-text::before{
+   content: '';
+   display: block;
+   background-image: url(../img/bx_bxs-check-circle.svg);
+   background-repeat: no-repeat;
+   width: 30px;
+   height: 30px;
+}
 
 
 /* ============= PAGE 3  SIROTILLO ============= */
