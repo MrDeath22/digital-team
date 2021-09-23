@@ -1,5 +1,6 @@
 body {
    font-family: 'Poppins', sans-serif;
+   overflow-x: hidden;
 }
 
 
@@ -161,7 +162,7 @@ body {
 
 .hero__img {
    position: absolute;
-   right: -76px;
+   right: -160px;
 }
 /* /HERO ====================== */
 
@@ -358,9 +359,8 @@ body {
    font-size: 16px;
    line-height: 202.5%;
    color: #000000;
-=======
+}
 /* -------FOOTER--------- */
-
 
 #footer {
    position: relative;
@@ -370,6 +370,7 @@ body {
 
 .footer__div {
    padding: 50px 0;
+   padding-top: 80px;
    opacity: 0.9;
 }
 
