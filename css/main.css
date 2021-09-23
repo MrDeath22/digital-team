@@ -2,6 +2,363 @@ body {
    font-family: 'Poppins', sans-serif;
 }
 
+
+.hero-container {
+   width: 1200px;
+   margin: 0 auto;
+}
+
+/* CONTACTS ====================== */
+.contacts {
+   height: 40px;
+   position: relative;
+}
+
+.contacts__address,
+.contacts__phone {
+   position: absolute;
+   top: 12px;
+   margin-left: 100px;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 15px;
+   color: #1A1A1A;
+}
+
+.contacts__phone {
+   right: 30px;
+}
+
+.contacts__address {
+   right: 250px;
+}
+/* /CONTACTS ====================== */
+
+
+/* HEADER ====================== */
+#header {
+   padding: 15px 0;
+   background: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
+}
+
+.header__nav-list-item {
+   margin-left: 68px;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;
+   position: relative;
+}
+
+.header__nav-list-item i {
+   position: absolute;
+   left: -20px;
+   top: 3px;
+   color: transparent;
+   transition: all 0.2s ease-in-out;
+}
+
+.header__nav-list-item:hover i,
+.header__nav-list-item--active i {
+   color: #fff;
+}
+
+.header__nav-list-item a {
+   color: #fff;
+}
+
+.header__btn {
+   padding: 11px 28px;
+   background: #fff;
+   border-radius: 6px;
+   border: 1px solid #fff;
+   transition: all 0.2s ease-in-out;
+}
+
+.header__btn a {
+   color: #DC7000;
+   transition: all 0.2s ease-in-out;
+}
+
+.header__btn:hover {
+   background: #DC7000;
+}
+
+.header__btn:hover a {
+   color: #fff;
+}
+/* /HEADER ====================== */
+
+/* HERO ====================== */
+#hero {
+   position: relative;
+   background: #e27a0c1f;
+   height: 675px;
+}
+
+.hero__desc {
+   padding-top: 120px;
+   padding-bottom: 113px;
+}
+
+.hero__links {
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 208.5%;
+}
+
+.hero__link-home {
+   color: #848484;
+}
+
+.hero__link-about {
+   color: #DC7000;
+}
+
+.hero__title {
+   margin-top: 38px;
+   font-weight: bold;
+   font-size: 30px;
+   line-height: 180.5%;
+   color: #222222;
+}
+
+.hero__paragraph {
+   margin-top: 28px;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 208.5%;
+   color: #525252;
+}
+
+.hero__btn {
+   margin-top: 68px;
+   padding: 16px 20px;
+   background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+   color: #fff;
+   border-radius: 40px;
+}
+
+.hero__btn i {
+   position: relative;
+   top: 2px;
+   margin-left: 10px;
+   transform: rotate(0deg);
+   transition: all 0.3s ease-in-out;
+}
+
+.hero__btn:hover {
+   background: linear-gradient(92.48deg, #FB9E3C 2.08%, #FA8305  117.25%);
+
+}
+
+.hero__btn:hover i {
+   transform: rotate(180deg);
+}
+
+.hero__wrap {
+   position: relative;
+}
+
+.hero__img {
+   position: absolute;
+   right: -76px;
+}
+/* /HERO ====================== */
+
+.cards {
+   padding: 55px 0;
+   padding-bottom: 150px;
+}
+
+.open__title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 180.5%;
+   color: #222222;
+   margin-bottom: 55px;
+}
+
+.card__list__first {
+   width: 355px;
+   height: 340px;
+   background: #F5F5F5;
+   border-radius: 20px;
+   padding: 50px 30px;
+   transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.first__span {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #B000DC;
+   padding: 5px 25px 5px 15px;
+   background-color: #F6E3FB;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+.first__title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 187.5%;
+   color: #000000;
+   margin-bottom: 15px;
+}
+
+.first__txt {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+}
+
+
+/* ---------- */
+
+
+.card__list__second {
+   width: 355px;
+   height: 340px;
+   background: #F5F5F5;
+   border-radius: 20px;
+   padding: 50px 30px;
+   transition: background 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+
+.second__span {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #DC1A00;
+   padding: 5px 25px 5px 15px;
+   background-color: #F2E1DA;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+.second__title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 187.5%;
+   color: #000000;
+   margin-bottom: 15px;
+}
+
+.second__txt {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+}
+
+/* ----------- */
+
+.card__list__third {
+   width: 355px;
+   height: 340px;
+   background: #F5F5F5;
+   border-radius: 20px;
+   padding: 50px 30px;
+   transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.third__span {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #00DC72;
+   padding: 5px 25px 5px 15px;
+   background-color: #DAF2EA;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+.third__title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 187.5%;
+   color: #000000;
+   margin-bottom: 15px;
+}
+
+.third__txt {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+}
+
+.hover {
+   background-color: #F6E3FB;
+   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+}
+
+.card__list__first:hover {
+   background-color: #fff;
+   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+   transition: background 0.5s ease, box-shadow 0.4s ease;
+}
+
+.card__list__second:hover {
+   background-color: #fff;
+   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+   transition: background 0.5s ease, box-shadow 0.4s ease;
+}
+
+.card__list__third:hover {
+   background-color: #fff;
+   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+   transition: background 0.5s ease, box-shadow 0.4s ease;
+}
+
+#group {
+   background-color: #F5F5F5;
+}
+
+.huge {
+   padding: 100px 0;
+}
+
+.desceip__span {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 202.5%;
+   color: #DC7000;
+   margin-bottom: 15px;
+}
+
+.descrip__title {
+   width: 530px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 157.5%;
+   color: #000000;
+   margin-bottom: 15px;
+}
+
+.descrip__txt {
+   width: 530px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 202.5%;
+   color: #000000;
+=======
 /* -------FOOTER--------- */
 
 
