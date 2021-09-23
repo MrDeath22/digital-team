@@ -711,6 +711,9 @@ body {
    padding-bottom: 10px;
 }
 
+#services {
+   padding-bottom: 80px;
+}
 .clients__span {
    font-style: normal;
    font-weight: normal;
