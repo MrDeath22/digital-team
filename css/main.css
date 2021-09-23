@@ -832,6 +832,123 @@ body {
 /* ============= PAGE 3  SIROTILLO ============= */
 
 
+#news {
+   padding-top: 94px;
+}
+
+.news__link {
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 208.5%;
+   color: #848484;
+}
+
+.news__link-about {
+   color: #FF7C32;
+}
+
+.news__title {
+   margin-top: 16px;
+   font-weight: 600;
+   font-size: 33px;
+   line-height: 180.5%;
+   text-align: center;
+   color: #222222;
+}
+
+.news__paragraph {
+   margin-top: 13px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 187.5%;
+   text-align: center;
+   color: #898989;
+}
+
+.news__search-wrap {
+   margin-top: 74px;
+}
+
+.news__search-wrap i {
+   position: relative;
+   font-size: 20px;
+   top: 4px;
+   right: -50px;
+   color: #a8a7a7;
+}
+
+.news__search {
+   padding: 9px 59px;
+   width: 400px;
+   height: 49px;
+   background: #F1F1F1; 
+   color: #494848; 
+   border: none; 
+   border-radius: 10px;
+   outline-color: #a8a7a7;
+}
+
+.news-body {
+   margin-top: 109px;
+}
+
+.new-left {
+   margin-bottom: 100px;
+   border-bottom: 0.7px solid #A5A5A5;
+}
+
+.new-left__author-wrap {
+   margin-top: 21px;
+}
+
+.new-author {
+   margin-right: 20px;
+   padding: 15px 32px;
+   background: #2351F5;
+   color: #fff;
+}
+
+.new-left__title {
+   margin-top: 21px;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 45px;
+   color: #000000;
+}
+
+.new__p {
+   margin-top: 32px;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 207.8%;
+   color: #515151;
+}
+
+.new-right {
+   margin-bottom: 60px;
+}
+
+.new-right__inner {
+   margin-left: 30px;
+}
+
+.new-right__title {
+   margin-top: 4-0px;
+   font-weight: 600;
+   font-size: 23px;
+   line-height: 34px;
+   color: #000000;
+}
+
+
+.new-right:nth-child(1) .new-author {
+   background: #000;
+}
+
+.new-right:nth-child(3) .new-author {
+   background: #FF7C32;
+}
+
 
 /* ============= PAGE 4  ABDUSAMAD ============= */
 
