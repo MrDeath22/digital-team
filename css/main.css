@@ -1,3 +1,198 @@
 body {
    font-family: 'Poppins', sans-serif;
 }
+
+.cards {
+   padding: 55px 0;
+   padding-bottom: 150px;
+}
+
+.open__title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 180.5%;
+   color: #222222;
+   margin-bottom: 55px;
+}
+
+.card__list__first {
+   width: 355px;
+   height: 340px;
+   background: #F5F5F5;
+   border-radius: 20px;
+   padding: 50px 30px;
+   transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.first__span {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #B000DC;
+   padding: 5px 25px 5px 15px;
+   background-color: #F6E3FB;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+.first__title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 187.5%;
+   color: #000000;
+   margin-bottom: 15px;
+}
+
+.first__txt {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+}
+
+
+/* ---------- */
+
+
+.card__list__second {
+   width: 355px;
+   height: 340px;
+   background: #F5F5F5;
+   border-radius: 20px;
+   padding: 50px 30px;
+   transition: background 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+
+.second__span {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #DC1A00;
+   padding: 5px 25px 5px 15px;
+   background-color: #F2E1DA;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+.second__title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 187.5%;
+   color: #000000;
+   margin-bottom: 15px;
+}
+
+.second__txt {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+}
+
+/* ----------- */
+
+.card__list__third {
+   width: 355px;
+   height: 340px;
+   background: #F5F5F5;
+   border-radius: 20px;
+   padding: 50px 30px;
+   transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.third__span {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #00DC72;
+   padding: 5px 25px 5px 15px;
+   background-color: #DAF2EA;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+.third__title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 187.5%;
+   color: #000000;
+   margin-bottom: 15px;
+}
+
+.third__txt {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+}
+
+.hover {
+   background-color: #F6E3FB;
+   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+}
+
+.card__list__first:hover {
+   background-color: #fff;
+   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+   transition: background 0.5s ease, box-shadow 0.4s ease;
+}
+
+.card__list__second:hover {
+   background-color: #fff;
+   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+   transition: background 0.5s ease, box-shadow 0.4s ease;
+}
+
+.card__list__third:hover {
+   background-color: #fff;
+   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+   transition: background 0.5s ease, box-shadow 0.4s ease;
+}
+
+#group {
+   background-color: #F5F5F5;
+}
+
+.huge {
+   padding: 100px 0;
+}
+
+.desceip__span {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 202.5%;
+   color: #DC7000;
+   margin-bottom: 15px;
+}
+
+.descrip__title {
+   width: 530px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 157.5%;
+   color: #000000;
+   margin-bottom: 15px;
+}
+
+.descrip__txt {
+   width: 530px;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 202.5%;
+   color: #000000;
+}
