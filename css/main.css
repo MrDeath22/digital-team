@@ -843,8 +843,97 @@ body {
 }
 
 
-/* ============= PAGE 3  SIROTILLO ============= */
+/* ============= PAGE 1  SIROTILLO ============= */
 
+/* PROJECTS ============== */
+#projects {
+   padding-top: 141px;
+}
+
+.projects__title {
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 187.5%;
+   color: #222222;
+}
+
+.projects__paragraph {
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+}
+
+.projects__images {
+   margin-top: 71px;
+}
+
+.projects__images {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.projects__img-wrap1 {
+   display: flex;
+   flex-direction: row;
+}
+
+.projects__img-wrap2 {
+   margin-top: 30px;
+   display: flex;
+   flex-direction: row;
+}
+
+.projects__img-wrap2 img,
+.projects__img-wrap1 img {
+   margin-right: 38px;
+}
+/* /PROJECTS ============== */
+
+
+/* LOREM ============== */
+#lorem {
+   padding-top: 164px;
+   padding-bottom: 150px;
+}
+
+.lorem__desc {
+   padding-top: 50px;
+}
+
+.lorem__title {
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 45px;
+}
+
+.lorem__paragraph {
+   margin-top: 43px;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 25px;
+   color: #515151;
+}
+
+.lorem__btn-wrap {
+   margin-top: 59px;
+}
+
+.lorem__btn {
+   padding: 11px 45px;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;   
+   background: #DC7000;
+   color: #fff;
+}
+/* /LOREM ============== */
+
+/* ============= /PAGE 1  SIROTILLO ============= */
+
+
+/* ============= PAGE 3  SIROTILLO ============= */
 
 #news {
    padding-top: 94px;
@@ -963,6 +1052,28 @@ body {
 .new-right:nth-child(3) .new-author {
    background: #FF7C32;
 }
+
+.new-second {
+   border-bottom: none;
+}
+
+.new-second__right .new-right:nth-child(1) .new-author {
+   background: #23A54F;
+}
+
+.new-second__right .new-right:nth-child(3) .new-author {
+   background: #9921C3;
+}
+
+.new-left__subtitle {
+   margin-top: 80px;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 187.5%;
+   color: #222222;
+}
+/* ============= /PAGE 3  SIROTILLO ============= */
+
 
 
 /* ============= PAGE 4  ABDUSAMAD ============= */
