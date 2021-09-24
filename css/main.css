@@ -1087,6 +1087,115 @@ body {
 /* ============= /PAGE 3  SIROTILLO ============= */
 
 
+/* ============= PAGE 4  SIROTILLO ============= */
+
+/* HELLO ============ */
+#hello {
+   margin-top: 147px;
+   background: #F5F5F5;
+}
+
+.hello__title {
+   padding-top: 111px;
+   font-weight: normal;
+   font-size: 30px;
+   line-height: 189.5%;
+}
+
+.hello__paragraph {
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 189.5%;
+   text-align: center;
+   color: #777777;
+}
+
+.forma {
+   margin-top: 79px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: left;
+}
+
+.forma label {
+   margin-top: 20px;
+   margin-bottom: 8px;
+   font-weight: 500;
+   font-size: 14px;
+   text-transform: capitalize;
+   line-height: 175.4%;
+   letter-spacing: -0.3px;
+   color: #4F4F4F;
+}
+
+.forma__block {
+   display: flex;
+   flex-direction: column;
+}
+
+.forma input {
+   background: #FFFFFF;
+   border: 0.6px solid #CECECE;
+   box-sizing: border-box;
+   border-radius: 9px;
+}
+
+.forma input,
+.forma textarea {
+   padding-left: 10px;
+   outline-color: #c4c3c3;
+   color: #494848;
+}
+
+.forma__fname,
+.forma__lname {
+   width: 322px;
+   height: 56px;
+}
+
+.forma__fname {
+   margin-right: 27px;
+}
+
+.forma .forma__email {
+   width: 671px;
+   height: 56px;
+}
+
+.forma textarea {
+   padding-top: 10px;
+   width: 671px;
+   height: 232px;
+   background: #FFFFFF;
+   border: 0.6px solid #CECECE;
+   box-sizing: border-box;
+   border-radius: 9px;
+}
+
+.forma__block-button {
+   display: flex;
+   align-items: flex-end;
+   width: 671px;
+}
+
+.forma__button {
+   margin-top: 51px;
+   margin-bottom: 63px;
+   padding: 11px 48px;
+   width: 200px;
+   height: 57px;
+   display: block;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 204.3%;
+   background: #DC7000;
+   color: #fff;
+   border-radius: 10px;
+}
+/* ============= /PAGE 4  SIROTILLO ============= */
+
+
 
 /* ============= PAGE 4  ABDUSAMAD ============= */
 
