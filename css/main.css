@@ -3,25 +3,13 @@ body {
    overflow-x: hidden;
 }
 
-#team {
-   height: 619px;
-}
-
-.team__body {
-   padding-top: 138px;
-}
-
-.team__title {
-   margin-bottom: 60px;
-}
-
-
 .hero-container {
    width: 1200px;
    margin: 0 auto;
 }
 
 /* CONTACTS ====================== */
+
 .contacts {
    height: 40px;
    position: relative;
@@ -103,7 +91,10 @@ body {
 
 /* /HEADER ====================== */
 
+
 /* HERO ====================== */
+
+
 #hero {
    position: relative;
    background: #e27a0c1f;
@@ -181,6 +172,7 @@ body {
 
 /* /HERO ====================== */
 
+
 .cards {
    padding: 55px 0;
    padding-bottom: 150px;
@@ -192,190 +184,44 @@ body {
    font-size: 25px;
    line-height: 180.5%;
    color: #222222;
-
    margin-bottom: 53px;
 }
 
-.team__block {
-   display: flex;
-   justify-content: space-between;
+#group {
+   background-color: #F5F5F5;
 }
 
-.team__item {
-   text-align: center;
-   background: #F5F5F5;
-   border-radius: 20px;
-   width: 285px;
-   height: 253px;
-   transition: all 0.5s ease;
+.huge {
+   padding: 100px 0;
+   margin-right: 80px;
 }
 
-.team__item:hover {
-   background: #ffffff;
-   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
-}
-
-.team__list::before {
-   content: '';
-   display: block;
-   background-image: url(../img/Bill-1.png);
-   width: 96px;
-   height: 103px;
-   background-repeat: no-repeat;
-   background-position: center;
-   margin-left: 100px;
-   margin-top: 40px;
-}
-
-.team__list__two::before {
-   content: '';
-   display: block;
-   background-image: url(../img/Beverly-1.png);
-   width: 95px;
-   height: 103px;
-   background-repeat: no-repeat;
-   margin-left: 90px;
-   margin-top: 40px;
-}
-
-.team__list__tree::before {
-   content: '';
-   display: block;
-   background-image: url(../img/Claudia-1.png);
-   width: 95px;
-   height: 103px;
-   background-repeat: no-repeat;
-   margin-left: 90px;
-   margin-top: 40px;
-}
-
-.team__list__four::before {
-   content: '';
-   display: block;
-   background-image: url(../img/Avatar-1.png);
-   width: 95px;
-   height: 103px;
-   background-repeat: no-repeat;
-   margin-left: 90px;
-   margin-top: 40px;
-}
-
-.team__list__title {
-   font-style: normal;
-   font-weight: 600;
-   font-size: 19px;
-   line-height: 202.5%;
-   color: #000000;
-}
-
-.team__list__text {
-   font-style: normal;
-   font-weight: 300;
-   font-size: 16px;
-   line-height: 202.5%;
-   color: #8B8B8B;
-}
-
-#partners {
-   background: #F5F5F5;
-   height: 384px;
-}
-
-.partners__body {
-   padding-top: 70px;
-}
-
-.partners__title {
-   margin-bottom: 60px;
-}
-
-.partners__item {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-#action {
-   height: 700px;
-}
-
-.action__body {
-   margin-top: 138px;
-}
-
-.action__title {
-   font-style: normal;
-   font-weight: 600;
-   font-size: 30px;
-   line-height: 187.5%;
-   color: #222222;
-}
-
-.action__text {
-   font-style: normal;
-   font-weight: normal;
-   font-size: 16px;
-   line-height: 187.5%;
-   color: #525252;
-   width: 525px;
-   margin-bottom: 74px;
-}
-
-.action__item {
-   background: #1B1B1B;
-   border-radius: 15px;
-   width: 1170px;
-   height: 189px;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-}
-
-.action__item__title {
+.desceip__span {
    font-style: normal;
    font-weight: 500;
-   font-size: 30px;
-   line-height: 45px;
-   color: #FFFFFF;
+   font-size: 16px;
+   line-height: 202.5%;
+   color: #DC7000;
+   margin-bottom: 15px;
 }
 
-.action__item__text {
+.descrip__title {
+   width: 530px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 157.5%;
+   color: #000000;
+   margin-bottom: 15px;
+}
+
+.descrip__txt {
+   width: 530px;
    font-style: normal;
    font-weight: normal;
-   font-size: 17px;
-   line-height: 25px;
-   color: #FFFFFF;
-   width: 517px;
-}
-
-.input {
-   background: #ffffff;
-   width: 490px;
-   height: 50px;
-   border-radius: 10px;
-}
-
-.action__input {
-   width: 386px;
-   height: 48px;
-   background: #FFFFFF;
-   border-radius: 8px;
-   border: none;
-   padding-left: 20px;
-   padding-right: 20px;
-}
-
-.action__input__buttom {
-   font-style: normal;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 19px;
-   text-align: center;
-   color: #FFFFFF;
-   background: #DC7000;
-   border-radius: 8px;
-   padding: 8px 13px 9px 22px;
-   margin-bottom: 55px;
+   font-size: 16px;
+   line-height: 202.5%;
+   color: #000000;
 }
 
 .card__list__first {
@@ -500,11 +346,6 @@ body {
    color: #525252;
 }
 
-.hover {
-   background-color: #F6E3FB;
-   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
-}
-
 .card__list__first:hover {
    background-color: #fff;
    box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
@@ -523,42 +364,200 @@ body {
    transition: background 0.5s ease, box-shadow 0.4s ease;
 }
 
-#group {
-   background-color: #F5F5F5;
+#team {
+   height: 619px;
 }
 
-.huge {
-   padding: 100px 0;
-   margin-right: 80px;
+.team__body {
+   padding-top: 138px;
 }
 
-.desceip__span {
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 202.5%;
-   color: #DC7000;
-   margin-bottom: 15px;
+.team__title {
+   margin-bottom: 60px;
 }
 
-.descrip__title {
-   width: 530px;
+.team__block {
+   display: flex;
+   justify-content: space-between;
+}
+
+.team__item {
+   text-align: center;
+   background: #F5F5F5;
+   border-radius: 20px;
+   width: 285px;
+   height: 253px;
+   transition: all 0.5s ease;
+}
+
+.team__item:hover {
+   background: #ffffff;
+   box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.15);
+}
+
+.team__list::before {
+   content: '';
+   display: block;
+   background-image: url(../img/Bill-1.png);
+   width: 96px;
+   height: 103px;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-left: 100px;
+   margin-top: 40px;
+}
+
+.team__list__two::before {
+   content: '';
+   display: block;
+   background-image: url(../img/Beverly-1.png);
+   width: 95px;
+   height: 103px;
+   background-repeat: no-repeat;
+   margin-left: 90px;
+   margin-top: 40px;
+}
+
+.team__list__tree::before {
+   content: '';
+   display: block;
+   background-image: url(../img/Claudia-1.png);
+   width: 95px;
+   height: 103px;
+   background-repeat: no-repeat;
+   margin-left: 90px;
+   margin-top: 40px;
+}
+
+.team__list__four::before {
+   content: '';
+   display: block;
+   background-image: url(../img/Avatar-1.png);
+   width: 95px;
+   height: 103px;
+   background-repeat: no-repeat;
+   margin-left: 90px;
+   margin-top: 40px;
+}
+
+.team__list__title {
    font-style: normal;
    font-weight: 600;
-   font-size: 28px;
-   line-height: 157.5%;
+   font-size: 19px;
+   line-height: 202.5%;
    color: #000000;
-   margin-bottom: 15px;
 }
 
-.descrip__txt {
-   width: 530px;
+.team__list__text {
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 202.5%;
+   color: #8B8B8B;
+}
+
+#partners {
+   background: #F5F5F5;
+   height: 384px;
+}
+
+.partners__body {
+   padding-top: 70px;
+}
+
+.partners__title {
+   margin-bottom: 60px;
+}
+
+.partners__item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#action {
+   height: 600px;
+}
+
+.action__body {
+   padding-top: 60px;
+}
+
+.action__title {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 187.5%;
+   color: #222222;
+}
+
+.action__text {
    font-style: normal;
    font-weight: normal;
    font-size: 16px;
-   line-height: 202.5%;
-   color: #000000;
+   line-height: 187.5%;
+   color: #525252;
+   width: 525px;
+   margin-bottom: 74px;
 }
+
+.action__item {
+   background: #1B1B1B;
+   border-radius: 15px;
+   width: 1170px;
+   height: 189px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.action__item__title {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 45px;
+   color: #FFFFFF;
+}
+
+.action__item__text {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 25px;
+   color: #FFFFFF;
+   width: 517px;
+}
+
+.input {
+   background: #ffffff;
+   width: 490px;
+   height: 50px;
+   border-radius: 10px;
+}
+
+.action__input {
+   width: 386px;
+   height: 48px;
+   background: #FFFFFF;
+   border-radius: 8px;
+   border: none;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.action__input__buttom {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 19px;
+   text-align: center;
+   color: #FFFFFF;
+   background: #DC7000;
+   border-radius: 8px;
+   padding: 8px 13px 9px 22px;
+   margin-bottom: 55px;
+}
+
 
 /* -------FOOTER--------- */
 
@@ -615,7 +614,7 @@ body {
    margin-right: 75px;
 }
 
-.footer__items>* {
+.footer__items > * {
    display: block;
 }
 
@@ -633,6 +632,11 @@ body {
    font-size: 16px;
    margin-bottom: 10px;
    color: #fff;
+   transition: color 0.2s ease;
+}
+
+.footer__items-link:hover {
+   color: #FB9E3C;
 }
 
 .footer__items-desc {
@@ -716,6 +720,8 @@ body {
 }
 
 .clients__item {
+   width: 1000px;
+   margin: 0 auto;
    padding: 50px 0;
    border-radius: 10px;
    box-shadow: 5px 14px 30px -10px rgb(34 60 80 / 20%);
@@ -769,7 +775,7 @@ body {
    content: "";
    background-color: #C2C2C2;
    top: -15px;
-   right: -90px;
+   right: -61px;
 }
 
 
@@ -841,8 +847,105 @@ body {
 }
 
 
-/* ============= PAGE 3  SIROTILLO ============= */
+/* ============= PAGE 1  SIROTILLO ============= */
 
+/* PROJECTS ============== */
+
+
+#projects {
+   padding-top: 141px;
+}
+
+.projects__title {
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 187.5%;
+   color: #222222;
+}
+
+.projects__paragraph {
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 187.5%;
+   color: #525252;
+}
+
+.projects__images {
+   margin-top: 71px;
+}
+
+.projects__images {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.projects__img-wrap1 {
+   display: flex;
+   flex-direction: row;
+}
+
+.projects__img-wrap2 {
+   margin-top: 30px;
+   display: flex;
+   flex-direction: row;
+}
+
+.projects__img-wrap2 img,
+.projects__img-wrap1 img {
+   margin-right: 38px;
+}
+/* /PROJECTS ============== */
+
+
+/* LOREM ============== */
+#lorem {
+   padding-top: 164px;
+   padding-bottom: 100px;
+}
+
+.lorem__desc {
+   padding-top: 50px;
+}
+
+.lorem__title {
+   font-weight: 500;
+   font-size: 30px;
+   line-height: 45px;
+}
+
+.lorem__paragraph {
+   margin-top: 43px;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 25px;
+   color: #515151;
+}
+
+.lorem__btn-wrap {
+   margin-top: 59px;
+}
+
+.lorem__btn {
+   padding: 11px 45px;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 24px;   
+   background: #DC7000;
+   color: #fff;
+   transition: opacity 0.4s ease;
+}
+
+.lorem__btn:hover {
+   opacity: 0.7;
+}
+
+/* /LOREM ============== */
+
+/* ============= /PAGE 1  SIROTILLO ============= */
+
+
+/* ============= PAGE 3  SIROTILLO ============= */
 
 #news {
    padding-top: 94px;
@@ -911,6 +1014,7 @@ body {
 
 .new-left__author-wrap {
    margin-top: 21px;
+   margin-bottom: 20px;
 }
 
 .new-author {
@@ -960,6 +1064,28 @@ body {
 .new-right:nth-child(3) .new-author {
    background: #FF7C32;
 }
+
+.new-second {
+   border-bottom: none;
+}
+
+.new-second__right .new-right:nth-child(1) .new-author {
+   background: #23A54F;
+}
+
+.new-second__right .new-right:nth-child(3) .new-author {
+   background: #9921C3;
+}
+
+.new-left__subtitle {
+   margin-top: 80px;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 187.5%;
+   color: #222222;
+}
+/* ============= /PAGE 3  SIROTILLO ============= */
+
 
 
 /* ============= PAGE 4  ABDUSAMAD ============= */
@@ -1292,4 +1418,56 @@ body {
 
 .arrow:nth-child(1) {
    margin-right: 20px;
+}
+
+
+/* ------------PAGE 1---------- */
+
+
+.hero-bg {
+   width: 100%;
+   height: 750px;
+   background-position: right;
+   background-size: cover;
+   background-image: url("../img/home-hero-bg.svg");
+   z-index: -10;
+}
+
+.main__div {
+   padding: 100px 0;
+}
+
+.main__bg-img {
+   position: absolute;
+   top: 10%;
+   z-index: -5;
+}
+
+.main__text {
+   display: block;
+   font-size: 20px;
+   color: #E87D0E;
+   margin-bottom: 17px;
+}
+
+.main__title {
+   font-size: 50px;
+   line-height: 155.2%;
+   margin-bottom: 25px;
+}
+
+.main__desc {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 200%;
+   margin-bottom: 50px;
+}
+
+.main__link {
+   font-weight: 500;
+   font-size: 16px;
+   padding: 15px 24px;
+   color: #FFFFFF;
+   background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+   border-radius: 40px;
 }
